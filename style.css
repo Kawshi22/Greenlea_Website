@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://i.pinimg.com/736x/25/aa/99/25aa990a00c6fc659f7548d644c1e7ed.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1350px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 250px;
+    float: left;
+    height: 80;
+}
+.logo{
+    color: rgb(236, 241, 236);
+    font-size: 36px;
+    font-family: sans-serif;
+    padding-right: 25px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 65px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: linen;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(155, 224, 155);
+}
+.content{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: linen;
+}
+.content h1{
+    font-size: 40px;
+    margin-top: 70px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 90;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+span{
+    background:#009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 26px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
